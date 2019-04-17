@@ -1,6 +1,6 @@
 /* General */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway|Ubuntu');
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
@@ -67,7 +67,7 @@
 		font-family: 'Raleway', Georgia, serif;
 		font-size: 4.0rem;
 		font-weight: bold;
-		color: #f9bfad;
+		color:#D91C5C;
 		display: block;
 		padding: 50px 20px 0px 0px;
 		margin-top: -43px;
@@ -174,6 +174,7 @@
 	}
 
 	.main-navigator {
+		display: none;
 		padding: 30px 0px 50px;
 		width: 100%;
 	}
@@ -330,7 +331,7 @@
 	}
 	.content_type_clase_Lumbreras .logo-publisher {
 		content: " ";
-		background-image: url(logo-blink.png);
+		background-image: url(images/logo_Lumbreras.png);
 		height: 36px;
 		background-repeat: no-repeat;
 		width: 100px;
@@ -356,21 +357,19 @@
 
 	.content_type_clase_Lumbreras .publisher-navbar .dropdown button,
 	.content_type_clase_Lumbreras .publisher-navbar li {
-		border-radius: 5px;
-		border: none;
 		background-color: transparent;
-		color: #ffffff;
-		vertical-align: middle;
-		margin: 0px 5px;
-		text-indent: 0px;
-		line-height: 3.5rem;
-		font-size: 2.0rem;
-		font-weight: 400;
-		cursor: pointer;
-		background: #5ebdb2;
-		border-radius: 120px;
+	    color: #37649d;
+	    vertical-align: middle;
+	    margin: 0px 5px;
+	    text-indent: 0px;
+	    line-height: 3.5rem;
+	    font-size: 2.3rem;
+	    font-weight: 600;
+	    cursor: pointer;
+	    opacity: 1;
 	}
 	.content_type_clase_Lumbreras .publisher-navbar .dropdown button {
+		display: none;
 		background: none;
 		color: #5ebdb2;
 	}
@@ -395,8 +394,11 @@
 
 	.content_type_clase_Lumbreras .slider-indicators li.active,
 	.content_type_clase_Lumbreras .publisher-navbar li:hover {
-		opacity: 1;
-		background:#f9bfad;
+		color: rgb(217,28,92);
+	    border-bottom: 2px solid rgb(217,28,92);
+	    border-radius: 0;
+	    font-weight: bold;
+	    font-size: 2.5rem;
 	}
 
 	.content_type_clase_Lumbreras .publisher-navbar #top-navigator {
@@ -449,6 +451,7 @@
 /* Pagination */
 
 .js-slide-wrapper > .header .single-pagination {
+	display: none;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -529,8 +532,8 @@
 
 	.bck-enfasis,
 	strong {
-		color: #f9bfad;
-		font-weight: bold;
+		color: #555;
+    	font-weight: bold;
 	}
 
 	.content hr,
@@ -554,32 +557,122 @@
 
 	.content ol li:before,
 	.cke_contents ol li:before {
-		content: counter(bck-li-counter)') ';
-		position: absolute;
-		margin-left: -30px;
-		font-weight: bold;
-		font-size: 2.0rem;
-		text-align: right;
-		color: #5ebdb2;
-		margin-top: -2px;
+		content: counter(bck-li-counter)' ';
+	    position: absolute;
+	    margin-left: -30px;
+	    font-weight: bold;
+	    font-size: 2.0rem;
+	    text-align: center;
+	    background: #D91C5C;
+	    border-radius: 54px;
+	    height: 30px;
+	    margin-top: -2px;
+	    width: 30px;
+	    color: #ffff;
+	    padding-top: 3px;
+	     left: 20px;
 	}
-
+	/*Lista des icono*/
 	.texto_curso ul li,
 	.workspace ul li ul li,
 	.cke_contents ul li {
 		position: relative;
-		padding-left: 18px;
-		margin-bottom: 20px;
+	   padding-left: 32px;
+	   margin-bottom: 20px;
 	}
 
 	.texto_curso ul li:before,
 	.workspace ul li ul li:before,
 	.cke_contents ul li:before {
-		background-color: #f9bfad;
-		height: 12px;
-		width: 12px;
-		margin-top: 5px;
-		margin-left: -18px;
+		height: 30px;
+    width: 30px;
+    left: 13px;
+    margin-top: -3px;
+    margin-left: -18px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url(images/icono_lista_des.png);
+	}
+
+	/*LISTA Ordenada letras*/
+	#actividad .content .cke_contents .bck-ol-2,
+	#actividad .content .texto_curso .bck-ol-2,
+	#actividad .content .workspace ul li .bck-ol-2 {
+	   list-style-type: none;
+	   counter-reset: bck-li-counter;
+	}
+
+	#actividad .content .cke_contents .bck-ol-2 li,
+	#actividad .content .cke_contents .bck-ol-2 li,
+	#actividad .content .texto_curso .bck-ol-2 li,
+	#actividad .popover-content .bck-ol-2 li,
+	#actividad .content .workspace ul li .bck-ol-2 li {
+	   counter-increment: bck-li-counter;
+	   padding-left: 0px;
+	   position: relative;
+	   z-index: 0;
+	   font-weight: 700;
+	   margin-left: 0px;
+	   margin-top: 10px;
+	}
+
+	#actividad .content .cke_contents .bck-ol-2 li:before,
+	#actividad .content .texto_curso .bck-ol-2 li:before,
+	#actividad .popover-content .bck-ol-2 li:before,
+	#actividad .content .workspace ul li .bck-ol-2 li:before {
+	   content: counter(bck-li-counter, upper-alpha) ") ";
+	    position: absolute;
+	    margin-left: -30px;
+	    font-weight: bold;
+	    font-size: 1.6rem;
+	    text-align: center;
+	    border-radius: 54px;
+	    height: 30px;
+	    margin-top: -2px;
+	    width: 30px;
+	    color: #555;
+	    padding-top: 3px;
+	    left: 20px;
+	}
+
+	/*LISTA Ordenada azul*/
+	#actividad .content .cke_contents .bck-ol-3,
+	#actividad .content .texto_curso .bck-ol-3,
+	#actividad .content .workspace ul li .bck-ol-3 {
+	   list-style-type: none;
+	   counter-reset: bck-li-counter;
+	}
+
+	#actividad .content .cke_contents .bck-ol-3 li,
+	#actividad .content .cke_contents .bck-ol-3 li,
+	#actividad .content .texto_curso .bck-ol-3 li,
+	#actividad .popover-content .bck-ol-3 li,
+	#actividad .content .workspace ul li .bck-ol-3 li {
+	  counter-increment: bck-li-counter;
+	   padding-left: 0px;
+	   position: relative;
+	   z-index: 0;
+	   margin-left: 0px;
+	   margin-top: 10px;
+	   padding-left: 32px;
+	}
+
+	#actividad .content .cke_contents .bck-ol-3 li:before,
+	#actividad .content .texto_curso .bck-ol-3 li:before,
+	#actividad .popover-content .bck-ol-3 li:before,
+	#actividad .content .workspace ul li .bck-ol-3 li:before {
+	  content: counter(bck-li-counter)'.';
+	    position: absolute;
+	    margin-left: -30px;
+	    font-weight: bold;
+	    font-size: 2.2rem;
+	    text-align: center;
+	    color: #0B4EA2;
+	    padding-top: 3px;
+	    left: 20px;
+	    top: -3px;
+	    font-family: 'Playfair Display', serif;
+	    background-color: transparent;
 	}
 
 	.content figure:first-child:last-child,
@@ -770,6 +863,32 @@
 
 /**/
 
+/*IMAGEN AUX.*/
+	#actividad .carousel-inner .item-container.aux-fullscreen.is-small:not(.is-bottom):not(.is-top) .class_slide, 
+	#actividad .carousel-inner .item-container.aux-bckg.is-small:not(.is-bottom):not(.is-top) .class_slide{
+	   padding-bottom: 20px;
+	}
+
+	#actividad .carousel-inner .item-container.aux-fullscreen>.fs-img-container, 
+	#actividad .carousel-inner .item-container.aux-bckg>.fs-img-container {
+	    background-size: contain;
+	    background-repeat: repeat;
+	    background-position: center center;
+	}
+
+	.content_type_clase_fancy #actividad .content .header{
+	   background: transparent;
+	}
+
+	/*actividades test*/
+	#actividad .workspace.test .respuestas li{
+	   width: 100%;
+	}
+
+
+
+
+
 @media screen and (max-width: 1099px) {
     .body_clase .content-wrapper {
         max-width: 100%;
@@ -910,7 +1029,7 @@
 
 /*BK-10860*/
 /*
- * Me cargo todos los border que hay por debajo de un ejercicio de cálculo y restauro los necesarios
+ * Me cargo todos los border que hay por debajo de un ejercicio de cÃ¡lculo y restauro los necesarios
  *
  */
 div.calculo table.marco,
