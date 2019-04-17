@@ -727,15 +727,15 @@
 	#actividad .content .texto_curso .bck-ol-4 li:before,
 	#actividad .popover-content .bck-ol-4 li:before,
 	#actividad .content .workspace ul li .bck-ol-4 li:before {
-	  		height: 30px;
-		    width: 30px;
+	  	    height: 20px;
+		    width: 20px;
 		    left: 13px;
 		    color: transparent;
-		    margin-top: -3px;
-		    margin-left: -18px;
+		    margin-top: 4px;
+		    margin-left: -5px;
 		    background-repeat: no-repeat;
 		    background-color: transparent;
-		    background-image: url(images/icono_lista_des.png);
+		    background-image: url(images/icono_lista_des_small.png);
 	}
 
 
