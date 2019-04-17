@@ -771,7 +771,7 @@
 			max-height: 100%;
 			max-width: 100%;
 			padding: 2%;
-			border-top: 5px solid #0072BD;
+			background-color: #ffff;
 		}
 
 	.content figure:first-child:last-child,
