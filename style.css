@@ -738,6 +738,62 @@
 		    background-image: url(images/icono_lista_des_small.png);
 	}
 
+	/*Desplegable 1*/
+		.desplegable-1 .bck-dropdown-titulo{
+		    display: inline-block;
+		    vertical-align: middle;
+		    font-size: 2.5rem;
+		    padding-left: 10px;
+		    color: #D91C5C;
+		    font-weight: lighter;
+		}
+
+		.desplegable-1 .bck-dropdown-icon {
+			color: #00ADEE;
+		}
+
+	
+		.desplegable-1 .fa-chevron-down:before {
+			content: "\f15c";
+		    font-size: 2.7rem;
+		    color: #D91C5C;
+		}
+
+		.desplegable-1 .bck-dropdown-icon>.fa {
+			display: inline-block;
+			padding: 7px;
+		    text-align: center;
+		}
+
+		
+		.desplegable-1:not(.open) .bck-dropdown-button{
+			border-bottom: 2px solid #00ADEE;
+		}
+
+		.desplegable-1 .bck-dropdown-button .fa-chevron-up:before,
+		.desplegable-1 .bck-dropdown-button .fa-chevron-down:before{
+			content: "\f077";
+    		color: #D91C5C;		
+    		}
+
+		.content_type_clase_Lumbreras .desplegable-1 .bck-dropdown-content{
+			background-color: #fff;
+			border-top: 2px solid #00adee;
+			border-left: 0;
+			position: relative;
+			width: 100%;
+			top: -2px;
+			z-index: 0;
+		}
+
+		.content_type_clase_Lumbreras .bck-cam-dropdown.open {
+			background-color: #fff;
+			border-top: 2px solid #CBDB2B;
+			border-bottom: 10px solid #CBDB2B;
+			border-right: 2px solid #CBDB2B;
+			border-left: 10px solid #CBDB2B;
+			border-radius: 25px;
+		}
 
 	.content figure:first-child:last-child,
 	.content .js--row figure,
