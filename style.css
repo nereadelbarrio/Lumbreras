@@ -657,13 +657,11 @@
 	    font-weight: bold;
 	    font-size: 1.6rem;
 	    text-align: center;
-	    border-radius: 54px;
-	    height: 30px;
 	    margin-top: -2px;
-	    width: 30px;
 	    color: #555;
 	    padding-top: 3px;
-	    left: 20px;
+	    left: -6px;
+	    background: none;
 	}
 
 	/*LISTA Ordenada azul*/
