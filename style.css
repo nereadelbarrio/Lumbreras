@@ -1,7 +1,6 @@
-modern
 /* General */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway|Ubuntu');
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
@@ -911,7 +910,7 @@ modern
 
 /*BK-10860*/
 /*
- * Me cargo todos los border que hay por debajo de un ejercicio de cÃ¡lculo y restauro los necesarios
+ * Me cargo todos los border que hay por debajo de un ejercicio de cálculo y restauro los necesarios
  *
  */
 div.calculo table.marco,
