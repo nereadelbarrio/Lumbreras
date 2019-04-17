@@ -22,11 +22,11 @@
 		margin-bottom: 10px;
 	}
 
-	.is_app.content_type_clase_lumbreras {
+	.is_app.content_type_clase_Lumbreras {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_lumbreras #actividad {
+	.content_type_clase_Lumbreras #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
@@ -42,8 +42,8 @@
 		position: relative;
 	}
 
-	.content_type_clase_lumbreras #actividad .content .header .title img,
-	.content_type_clase_lumbreras #actividad .content .header .chapter {
+	.content_type_clase_Lumbreras #actividad .content .header .title img,
+	.content_type_clase_Lumbreras #actividad .content .header .chapter {
 		display: none;
 	}
 
@@ -53,17 +53,17 @@
 		visibility: hidden;
 	}
 
-	.content_type_clase_lumbreras #actividad .content .header {
+	.content_type_clase_Lumbreras #actividad .content .header {
 		border: none;
 	}
 
-	.content_type_clase_lumbreras #actividad .content .header .title {
+	.content_type_clase_Lumbreras #actividad .content .header .title {
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 
-	.content_type_clase_lumbreras #actividad .content .header .title h3 {
+	.content_type_clase_Lumbreras #actividad .content .header .title h3 {
 		font-family: 'Raleway', Georgia, serif;
 		font-size: 4.0rem;
 		font-weight: bold;
@@ -73,13 +73,13 @@
 		margin-top: -43px;
 		margin-bottom: 20px;
 	}
-	.content_type_clase_lumbreras #actividad .content .header .title h3 span {
+	.content_type_clase_Lumbreras #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
 		font-weight: 400;
 	}
-	.content_type_clase_lumbreras #actividad .texto_curso,
-	.content_type_clase_lumbreras #actividad .slide_content_type_1 .pregunta .texto_curso {
+	.content_type_clase_Lumbreras #actividad .texto_curso,
+	.content_type_clase_Lumbreras #actividad .slide_content_type_1 .pregunta .texto_curso {
 		font-size: 1.6rem;
 	}
 
@@ -103,7 +103,7 @@
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_lumbreras .slide_main input {
+	.content_type_clase_Lumbreras .slide_main input {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -115,7 +115,7 @@
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_lumbreras .slide_main input:focus {
+	.content_type_clase_Lumbreras .slide_main input:focus {
 		border-top-color: #3AC62A;
 		border-right-color: #3AC62A;
 		border-bottom-color: #3AC62A;
@@ -125,25 +125,25 @@
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_lumbreras .slide_main input[disabled],
-	.content_type_clase_lumbreras .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_lumbreras .slide_main input {
+	.content_type_clase_Lumbreras .slide_main input[disabled],
+	.content_type_clase_Lumbreras .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_Lumbreras .slide_main input {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_lumbreras .slide_main input.respuesta_ok {
+	.content_type_clase_Lumbreras .slide_main input.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_lumbreras .slide_main input.respuesta_ko {
+	.content_type_clase_Lumbreras .slide_main input.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_lumbreras .slide_main input.solucion {
+	.content_type_clase_Lumbreras .slide_main input.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -283,7 +283,7 @@
 /**/
 
 /* Navbar (Breadcums) */
-	.content_type_clase_lumbreras .publisher-navbar {
+	.content_type_clase_Lumbreras .publisher-navbar {
 		position: fixed;
 		top: 44px;
 		background: #ffffff;
@@ -293,7 +293,7 @@
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
 	}
 
-	.is_app.content_type_clase_lumbreras .publisher-navbar {
+	.is_app.content_type_clase_Lumbreras .publisher-navbar {
 		position: sticky;
 		top: 0px;
 	}
@@ -317,18 +317,18 @@
     	background: linear-gradient(to left, rgba(0, 160, 228, 0.21), transparent);
     }
 
-	.content_type_clase_lumbreras .publisher-navbar .navbar-content {
+	.content_type_clase_Lumbreras .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
 		padding-right: 50px;
 	}
 
-	.content_type_clase_lumbreras .logo-publisher {
+	.content_type_clase_Lumbreras .logo-publisher {
 		display: block;
 		margin-left: -48px;
 	}
-	.content_type_clase_lumbreras .logo-publisher {
+	.content_type_clase_Lumbreras .logo-publisher {
 		content: " ";
 		background-image: url(logo-blink.png);
 		height: 36px;
@@ -340,7 +340,7 @@
 		background-size: contain;
 	}
 
-	.content_type_clase_lumbreras .slider-indicators {
+	.content_type_clase_Lumbreras .slider-indicators {
 		padding: 0;
 		display: inline-block;
 		text-align: center;
@@ -354,8 +354,8 @@
 	}
 
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown button,
-	.content_type_clase_lumbreras .publisher-navbar li {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown button,
+	.content_type_clase_Lumbreras .publisher-navbar li {
 		border-radius: 5px;
 		border: none;
 		background-color: transparent;
@@ -370,12 +370,12 @@
 		background: #5ebdb2;
 		border-radius: 120px;
 	}
-	.content_type_clase_lumbreras .publisher-navbar .dropdown button {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown button {
 		background: none;
 		color: #5ebdb2;
 	}
 
-	.content_type_clase_lumbreras .slider-indicators:after {
+	.content_type_clase_Lumbreras .slider-indicators:after {
 		content: '';
 		display: block;
 		clear: both;
@@ -384,7 +384,7 @@
 		height: 0;
 	}
 
-	.content_type_clase_lumbreras .slider-indicators li {
+	.content_type_clase_Lumbreras .slider-indicators li {
 		width: 35px;
 		height: 35px;
 		margin: 0 8px 0 0;
@@ -393,24 +393,24 @@
 		position: relative;
 	}
 
-	.content_type_clase_lumbreras .slider-indicators li.active,
-	.content_type_clase_lumbreras .publisher-navbar li:hover {
+	.content_type_clase_Lumbreras .slider-indicators li.active,
+	.content_type_clase_Lumbreras .publisher-navbar li:hover {
 		opacity: 1;
 		background:#f9bfad;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar #top-navigator {
+	.content_type_clase_Lumbreras .publisher-navbar #top-navigator {
 		float: none;
 		margin-top: 10px;
 		display: block;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown {
 		float: left;
 		display: block;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown button {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
@@ -421,25 +421,25 @@
 		overflow-y: auto;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown button {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown button {
 		border: none;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown button:focus {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown li {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 		background: none;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown li a {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown li a {
 		color: #5ebdb2;
 	}
 
-	.content_type_clase_lumbreras .publisher-navbar .dropdown .caret {
+	.content_type_clase_Lumbreras .publisher-navbar .dropdown .caret {
 		border-color: #5ebdb2 transparent transparent transparent;
 		margin-left: 6px;
 
@@ -468,7 +468,7 @@
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/lumbreras_audio.png) 0 0 no-repeat;
+	background: url(images/Lumbreras_audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -478,7 +478,7 @@
 }
 
 #actividad .player.video {
-	background: url(images/lumbreras_video.png) 0 0 no-repeat;
+	background: url(images/Lumbreras_video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -790,7 +790,7 @@
   		border-right: 1px solid #eee;
     }
 
-    .content_type_clase_lumbreras .logo-publisher {
+    .content_type_clase_Lumbreras .logo-publisher {
 		margin-right: 0px;
 	}
 }
@@ -801,7 +801,7 @@
 		padding-left: 30px;
 	}
 
-	.content_type_clase_lumbreras #actividad .content .header .title h3 {
+	.content_type_clase_Lumbreras #actividad .content .header .title h3 {
 		margin-left: -30px;
 		padding-left: 20px;
 		padding-right: 50px;
@@ -817,10 +817,10 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.content_type_clase_lumbreras .publish {
+	.content_type_clase_Lumbreras .publish {
 		padding-left: 25px;
 	}
-	.content_type_clase_lumbreras .logo-publisher {
+	.content_type_clase_Lumbreras .logo-publisher {
 		margin-left: -20px;
 	}
 
@@ -842,11 +842,11 @@
     .bck-img.left, img[style~="float:left"] {
         max-width: 50%
     }
-	.content_type_clase_lumbreras .publisher-navbar {
+	.content_type_clase_Lumbreras .publisher-navbar {
 		top: 88px;
 	}
 
-	.content_type_clase_lumbreras .logo-publisher {
+	.content_type_clase_Lumbreras .logo-publisher {
 		margin-right: -20px;
 	}
 
@@ -884,11 +884,11 @@
     #actividad .carousel-inner .item-container {
 		padding: 40px 20px 90px;
 	}
-	.content_type_clase_lumbreras .publisher-navbar .navbar-content {
+	.content_type_clase_Lumbreras .publisher-navbar .navbar-content {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.content_type_clase_lumbreras .publisher-navbar .logo-publisher:before {
+	.content_type_clase_Lumbreras .publisher-navbar .logo-publisher:before {
 		content: none;
 		display: none;
 
@@ -901,7 +901,7 @@
 		font-size: 2.4rem;
 		width: 60px;
 	}
-	.content_type_clase_lumbreras #actividad .content .header .title h3 {
+	.content_type_clase_Lumbreras #actividad .content .header .title h3 {
 		padding-right: 20px;
 		margin-bottom: 20px;
 	}
@@ -922,6 +922,6 @@ div.calculo table.marco * {
     border-top: 2px dashed #f9bfad !important;
 }
 
-.content_type_clase_lumbreras .slide_main input {
+.content_type_clase_Lumbreras .slide_main input {
     border: 1px solid #ccc !important;
 }
