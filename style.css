@@ -964,11 +964,14 @@
 	#indice .unit-content .header .title{
 		color: #840404;
 	}
+
 	body:not(.isTablet) #indice .units ul li:hover, 
 	#indice .units ul li:focus, #indice .units ul li.active{
 		background: #EDBF07;
 	}
-
+	body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active{
+		background: #EDBF07;
+	}
 
 	a:hover, a:active, a:focus{
 		color: #840404;
