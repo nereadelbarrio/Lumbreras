@@ -968,7 +968,9 @@
 	a:hover, a:active, a:focus{
 		color: #840404;
 	}
-
+	.btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus{
+		background-color: #D91C5C;
+	}
 
 
 /*IMAGEN AUX.*/
