@@ -961,6 +961,15 @@
 	       color: #840404;
 	}
 
+	#indice .unit-content .header .title{
+		color: #840404;
+	}
+
+	a:hover, a:active, a:focus{
+		color: #840404;
+	}
+
+
 
 /*IMAGEN AUX.*/
 	#actividad .carousel-inner .item-container.aux-fullscreen.is-small:not(.is-bottom):not(.is-top) .class_slide, 
