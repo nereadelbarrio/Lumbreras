@@ -939,7 +939,23 @@
 		font-size: 2.0rem;
 	}
 
-/**/
+/*TOC*/
+	#indice .units ul li.active:not(.disabled), 
+	body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+	#indice .units ul li:focus:not(.disabled){
+		background: #ffe570;
+	}
+
+	body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+	body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
+		color: #8B4724;
+	}
+
+	#indice .units ul li{
+		background: #EDBF07;
+		border-radius: 0 18px 18px 0;
+	}
+
 
 /*IMAGEN AUX.*/
 	#actividad .carousel-inner .item-container.aux-fullscreen.is-small:not(.is-bottom):not(.is-top) .class_slide, 
